@@ -1,0 +1,119 @@
+/* 
+
+CSS -- based on Academind Tutorial
+https://codepen.io/anon/pen/PJrgga 
+
+*/
+
+.burger {
+  width: 500px;
+  height: 450px;
+  margin: auto;
+}
+
+/* TOP BREAD */
+.breadTop {
+  height: 15%;
+  width: 80%;
+  background: linear-gradient(#bc581e, #e27b36);
+  border-radius: 50% 50% 0 0;
+  box-shadow: inset -15px -7.5px #c15711;
+  margin: 1% auto;
+  position: relative;
+}
+
+.seed {
+  position: absolute;
+  width: 8%;
+  height: 12%;
+  background-color: white;
+  border-radius: 40%;
+  box-shadow: inset -2px -3px #c9c9c9;
+}
+
+.seeds {
+  left: 30%;
+  top: 50%;
+  transform: rotate(-20deg);
+}
+
+.seeds2 {
+  left: 64%;
+  top: 50%;
+  transform: rotate(10deg);
+}
+
+.seeds:before,
+.seeds:after,
+.seeds2:after {
+  content: '';
+  width: 50%;
+  height: 75%;
+  position: absolute;
+  background-color: white;
+}
+
+.seeds:before {
+  left: 180%;
+  top: -50%;
+  border-radius: 40%;
+  transform: rotate(60deg);
+  box-shadow: inset -1px -3px #c9c9c9;
+}
+
+.seeds:after {
+  left: -170%;
+  top: -260%;
+  border-radius: 40%;
+  transform: rotate(60deg);
+  box-shadow: inset -1px 2px #c9c9c9;
+}
+
+.seeds2:after {
+  left: 150%;
+  top: -130%;
+  border-radius: 40%;
+  transform: rotate(90deg);
+  box-shadow: inset 1px 3px #c9c9c9;
+}
+/* TOP BREAD */
+
+.salad {
+  width: 90%;
+  height: 7%;
+  background: linear-gradient(#228c1d, #91ce50);
+  margin: 1% auto;
+  border-radius: 20px;
+}
+
+.bacon {
+  width: 80%;
+  height: 3%;
+  background: linear-gradient(#bf3813, #c45e38);
+  margin: 1% auto;
+}
+
+.cheese {
+  width: 91%;
+  height: 4.5%;
+  background: linear-gradient(#f4d004, #d6bb22);
+  border-radius: 20px;
+  margin: 1% auto;
+}
+
+.meat {
+  width: 82%;
+  height: 8%;
+  background: linear-gradient(#7f3608, #702e05);
+  border-radius: 15px;
+  margin: 1% auto;
+}
+
+.breadBottom {
+  height: 13%;
+  width: 80%;
+  background: linear-gradient(#f08e4a, #e27b36);
+  margin: 1% auto;
+  box-shadow: inset -15px 0 #c15711;
+  border-radius: 0 0 30px 30px;
+}

@@ -1,0 +1,53 @@
+.container {
+  width: 250px;
+  margin: auto;
+  display: grid;
+  grid-auto-rows: auto;
+  gap: 5px;
+}
+
+.box {
+  border: 3px solid #666;
+  border-radius: 0.5em;
+  padding: 5px;
+  cursor: move;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.salad {
+  background: linear-gradient(#228c1d, #91ce50);
+}
+
+.salad::before {
+  content: 'Salad';
+}
+
+.bacon {
+  background: linear-gradient(#bf3813, #c45e38);
+}
+
+.bacon::before {
+  content: 'Bacon';
+}
+
+.cheese {
+  background: linear-gradient(#f4d004, #d6bb22);
+}
+
+.cheese::before {
+  content: 'Cheese';
+}
+
+.meat {
+  background: linear-gradient(#7f3608, #702e05);
+}
+
+.meat::before {
+  content: 'Meat';
+}
+
+input {
+  width: 30px;
+}
