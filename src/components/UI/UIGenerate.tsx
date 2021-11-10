@@ -6,6 +6,8 @@ export function generateUI(
   index: number,
   changeIngredients: (index: number, newValue: Salad | Cheese | Bacon | Meat) => void
 ) {
+
+	// dit is een beetje een rare manier van werken en kan voorkomen worden door een iets meer uitgebreide interface, zie dataStructure.ts
   for (const [key, value] of Object.entries(ingredient)) {
     return (
       <div draggable="true" key={index} className={`${styles.box} ${styles[key]}`}>
